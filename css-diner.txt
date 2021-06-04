@@ -1,0 +1,100 @@
+CSS Diner # https://flukeout.github.io/ #
+
+Level 01.
+Problem: Select the plates
+Solution: plate
+Level 02.
+Problem: Select the bento boxes
+Solution: bento
+Level 03.
+Problem: Select the fancy plate
+Solution: #fancy
+Level 04.
+Problem: Select the apple on the plate
+Solution: plate apple
+Level 05.
+Problem: Select the pickle on the fancy plate
+Solution: #fancy pickle
+Level 06.
+Problem: Select the small apples
+Solution: .small
+Level 07.
+Problem: Select the small oranges
+Solution: orange.small
+Level 08.
+Problem: Select the small oranges in the bentos
+Solution: bento orange.small
+Level 09.
+Problem: Select all the plates and bentos
+Solution: plate, bento
+Level 10.
+Problem: Select all the things!
+Solution: *
+Level 11.
+Problem: Select everything on a plate
+Solution: plate *
+Level 12.
+Problem: Select every apple that's next to a plate
+Solution: plate + apple
+Level 13.
+Problem: Select the pickles beside the bento
+Solution: bento ~ pickle
+Level 14.
+Problem: Select the apple directly on a plate
+Solution: plate > apple
+Level 15.
+Problem: Select the top orange
+Solution: orange:first-child
+Level 16.
+Problem: Select the apple and the pickle on the plates
+Solution: plate apple:only-child, plate pickle:only-child
+Level 17.
+Problem: Select the small apple and the pickle
+Solution: .small:last-child
+Level 18.
+Problem: Select the 3rd plate
+Solution: plate:nth-child(3)
+Level 19.
+Problem: Select the 1st bento
+Solution: bento:nth-last-child(3)
+Level 20.
+Problem: Select first apple
+Solution: apple:first-of-type
+Level 21.
+Problem: Select all even plates
+Solution: plate:nth-of-type(even)
+Level 22.
+Problem: Select every 2nd plate, starting from the 3rd
+Solution: plate:nth-of-type(2n+3)
+Level 23.
+Problem: Select the apple on the middle plate
+Solution: plate apple:only-of-type
+Level 24.
+Problem: Select the last apple and orange
+Solution: orange:last-of-type, apple:last-of-type
+Level 25.
+Problem: Select the empty bentos
+Solution: bento:empty
+Level 26.
+Problem: Select the big apples
+Solution: apple:not(.small)
+Level 27.
+Problem: Select the items for someone
+Solution: *[for]
+Level 28.
+Problem: Select the plates for someone
+Solution: plate[for]
+Level 29.
+Problem: Select Vitaly's meal
+Solution: bento[for="Vitaly"]
+Level 30.
+Problem: Select the items for names that start with 'Sa'
+Solution: *[for^="Sa"]
+Level 31.
+Problem: Select the items for names that end with 'ato'
+Solution: *[for$="ato"]
+Level 32.
+Problem: Select the meals for names that contain 'obb'
+Solution: bento[for*="obb"]
+
+ALISHER BEGMATOV
